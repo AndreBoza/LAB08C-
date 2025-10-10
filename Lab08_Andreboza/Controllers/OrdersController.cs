@@ -1,10 +1,12 @@
 using Lab08_Andreboza.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization; // <-- Añade este using
 
 namespace Lab08_Andreboza.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize(Roles = "Admin")] // <-- AÑADE ESTA LÍNEA
 public class OrdersController : ControllerBase
 {
     private readonly IOrderService _orderService;
