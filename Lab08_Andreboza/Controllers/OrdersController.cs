@@ -50,4 +50,18 @@ public class OrdersController : ControllerBase
         var orders = await _orderService.GetAllOrdersWithDetailsAsync();
         return Ok(orders);
     }
+    
+    // GET /api/orders/{orderId}/details-with-products
+    [HttpGet("{orderId}/details-with-products")]
+    public async Task<IActionResult> GetOrderWithDetails(int orderId)
+    {
+        var orderDetails = await _orderService.GetOrderWithDetailsAsync(orderId);
+
+        if (orderDetails == null)
+        {
+            return NotFound($"No se encontró la orden con ID {orderId}.");
+        }
+
+        return Ok(orderDetails);
+    }
 }

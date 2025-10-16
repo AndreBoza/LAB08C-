@@ -47,4 +47,13 @@ public class ClientsController : ControllerBase
         var products = await _productService.GetProductsSoldToClientAsync(clientId);
         return Ok(products);
     }
+    
+    
+    // GET /api/clients/total-sales
+    [HttpGet("total-sales")]
+    public async Task<IActionResult> GetTotalSalesByClient()
+    {
+        var sales = await _clientService.GetTotalSalesByClientAsync();
+        return Ok(sales);
+    }
 }

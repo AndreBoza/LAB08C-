@@ -56,4 +56,40 @@ public class ClientService : IClientService
             })
             .ToListAsync();
     }
+    public async Task<List<ClientOrderDto>> GetClientsWithOrdersAsNoTrackingAsync()
+    {
+        var clientOrders = await _context.Clients
+            .AsNoTracking()
+            .Select(client => new ClientOrderDto // <-- Usamos el DTO principal
+            {
+                ClientName = client.Name,
+                Orders = client.Orders
+                    .Select(order => new OrderSummaryDto // <-- Usamos el DTO de resumen
+                    {
+                        OrderId = order.OrderId,
+                        OrderDate = order.OrderDate
+                    }).ToList()
+            }).ToListAsync();
+
+        return clientOrders;
+    }
+    public async Task<IEnumerable<SalesByClientDto>> GetTotalSalesByClientAsync()
+    {
+        return await _context.Orders
+            .AsNoTracking()
+            .Include(o => o.Client) 
+            .Include(o => o.Orderdetails) 
+            .ThenInclude(od => od.Product) 
+            .GroupBy(o => o.Client) 
+            .Select(group => new SalesByClientDto
+            {
+                // La "Key" del grupo es el Cliente, así que podemos acceder a su nombre
+                ClientName = group.Key.Name,
+                // Sumamos el total de los detalles de todas las órdenes en el grupo
+                TotalSales = group.Sum(o => 
+                    o.Orderdetails.Sum(od => od.Quantity * od.Product.Price))
+            })
+            .OrderByDescending(s => s.TotalSales)
+            .ToListAsync();
+    }
 }

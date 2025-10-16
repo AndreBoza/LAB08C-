@@ -73,4 +73,25 @@ public class OrderService : IOrderService
             })
             .ToListAsync();
     }
+    public async Task<OrderWithDetailsDto?> GetOrderWithDetailsAsync(int orderId)
+    {
+        return await _context.Orders
+            // 1. Incluye la colección de detalles de la orden
+            .Include(order => order.Orderdetails) 
+            // 2. De esos detalles, incluye la entidad Producto relacionada
+            .ThenInclude(orderDetail => orderDetail.Product) 
+            .Where(order => order.OrderId == orderId)
+            .Select(order => new OrderWithDetailsDto
+            {
+                OrderId = order.OrderId,
+                OrderDate = order.OrderDate,
+                Products = order.Orderdetails.Select(od => new ProductDetailDto
+                {
+                    ProductName = od.Product.Name,
+                    Quantity = od.Quantity,
+                    Price = od.Product.Price
+                }).ToList()
+            })
+            .FirstOrDefaultAsync();
+    }
 }

@@ -15,4 +15,6 @@ public interface IOrderService
     
     // Ejercicio 10 (AÑADIDO)
     Task<IEnumerable<OrderDto>> GetAllOrdersWithDetailsAsync();
+    
+    Task<OrderWithDetailsDto?> GetOrderWithDetailsAsync(int orderId);
 }

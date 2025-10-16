@@ -9,48 +9,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aee15033-6e19-40d6-a8d7-d77dc9fdf626" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab08_Andreboza/Controllers/AuthController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab08_Andreboza/DTOs/LoginModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab08_Andreboza/DTOs/RegisterModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab08_Andreboza/Data/DbSeeder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab08_Andreboza/DTOs/ClientOrderDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab08_Andreboza/DTOs/OrderSummaryDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab08_Andreboza/DTOs/OrderWithDetailsDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab08_Andreboza/DTOs/ProductDetailDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab08_Andreboza/DTOs/SalesByClientDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab08-AndreBoza/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab08-AndreBoza/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/Controllers/ClientsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/Controllers/ClientsController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/Controllers/OrdersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/Controllers/OrdersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/Controllers/ProductsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/DTOs/ClientDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/DTOs/ClientDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/DTOs/ClientWithOrderCountDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/DTOs/ClientWithOrderCountDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/DTOs/OrderDetailDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/DTOs/OrderDetailDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/DTOs/OrderDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/DTOs/OrderDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/DTOs/ProductDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/DTOs/ProductDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/Data/LINQExample01DbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/Data/LINQExample01DbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/Lab08_Andreboza.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/Lab08_Andreboza.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/bin/Debug/net9.0/Lab08_Andreboza.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/bin/Debug/net9.0/Lab08_Andreboza.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/Services/ClientService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/Services/ClientService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/Services/IClientService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/Services/IClientService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/Services/IOrderService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/Services/IOrderService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/Services/OrderService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/Services/OrderService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/bin/Debug/net9.0/Lab08_Andreboza.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/bin/Debug/net9.0/Lab08_Andreboza.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/bin/Debug/net9.0/Lab08_Andreboza.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/bin/Debug/net9.0/Lab08_Andreboza.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/bin/Debug/net9.0/Lab08_Andreboza.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/bin/Debug/net9.0/Lab08_Andreboza.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/bin/Debug/net9.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/bin/Debug/net9.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/Lab08_Andreboza.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/Lab08_Andreboza.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/Lab08_Andreboza.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/Lab08_Andreboza.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/Lab08_Andreboza.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/Lab08_Andreboza.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/Lab08_Andreboza.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/Lab08_Andreboza.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/Lab08_Andreboza.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/Lab08_Andreboza.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/Lab08_Andreboza.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/Lab08_Andreboza.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/Lab08_Andreboza.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/Lab08_Andreboza.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/Lab08_Andreboza.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/Lab08_Andreboza.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/Lab08_Andreboza.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/Lab08_Andreboza.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/ref/Lab08_Andreboza.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/ref/Lab08_Andreboza.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/refint/Lab08_Andreboza.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/refint/Lab08_Andreboza.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/obj/Debug/net9.0/rpswa.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/obj/Lab08_Andreboza.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/obj/Lab08_Andreboza.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab08_Andreboza/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08_Andreboza/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,18 +48,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AndreBoza"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AndreBoza&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AndreBoza/LAB08C-.git",
-    "accountId": "a703b4dd-4143-4182-89b1-7831a7977472"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AndreBoza/LAB08C-.git&quot;,
+    &quot;accountId&quot;: &quot;a703b4dd-4143-4182-89b1-7831a7977472&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b13cb16f7e5749269b6922dc6752bd1c291448/e0/1180a087/EntityFrameworkServiceCollectionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab08_Andreboza/Controllers/AuthController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -82,12 +67,17 @@
     <setting file="file://$PROJECT_DIR$/Lab08_Andreboza/Controllers/OrdersController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab08_Andreboza/Controllers/ProductsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab08_Andreboza/DTOs/ClientDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab08_Andreboza/DTOs/ClientOrderDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab08_Andreboza/DTOs/ClientWithOrderCountDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab08_Andreboza/DTOs/LoginModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab08_Andreboza/DTOs/OrderDetailDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab08_Andreboza/DTOs/OrderDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab08_Andreboza/DTOs/OrderSummaryDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab08_Andreboza/DTOs/OrderWithDetailsDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab08_Andreboza/DTOs/ProductDetailDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab08_Andreboza/DTOs/ProductDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab08_Andreboza/DTOs/RegisterModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab08_Andreboza/DTOs/SalesByClientDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab08_Andreboza/Data/DbSeeder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab08_Andreboza/Services/ClientService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab08_Andreboza/Services/IClientService.cs" root0="FORCE_HIGHLIGHTING" />
@@ -96,30 +86,31 @@
     <setting file="file://$PROJECT_DIR$/Lab08_Andreboza/Services/OrderService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab08_Andreboza/Services/ProductService.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="33qSrv9IJRhPSsz66K53KsbD7zW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.Lab08-AndreBoza: http.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.Lab08-AndreBoza: http.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Lab08-AndreBoza: http">
     <configuration name="Lab08-AndreBoza: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Lab08_Andreboza/Lab08_Andreboza.csproj" />
@@ -161,7 +152,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760043312858</updated>
-      <workItem from="1760043315490" duration="10240000" />
+      <workItem from="1760043315490" duration="10809000" />
+      <workItem from="1760569994431" duration="533000" />
+      <workItem from="1760571507880" duration="504000" />
+      <workItem from="1760636492914" duration="4848000" />
     </task>
     <servers />
   </component>

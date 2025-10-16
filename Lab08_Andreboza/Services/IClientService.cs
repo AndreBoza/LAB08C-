@@ -10,4 +10,6 @@ public interface IClientService
     Task<ClientWithOrderCountDto?> GetClientWithMostOrdersAsync();
     // Ejercicio 12
     Task<IEnumerable<ClientDto>> GetClientsWhoBoughtProductAsync(int productId);
+    
+    Task<IEnumerable<SalesByClientDto>> GetTotalSalesByClientAsync();
 }
